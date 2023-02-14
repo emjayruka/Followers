@@ -1,0 +1,78 @@
+html {
+    background-color: #1e66dc;
+}
+
+body{
+    margin: 0;
+    width: 39%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+}
+
+img {
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid skyblue;
+}
+
+.head {
+    background-color: #114fb1;
+    color: aliceblue;
+}
+
+.find {
+    display: flex;
+    gap: 3rem;
+    padding: 1rem 1rem 1rem 1rem;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.search {
+    background-color: #3974d2;
+    width: 240px;
+    height: 40px;
+    margin: 0 0 1rem 0.5rem;
+    border-radius: 100px;
+    opacity: 0.5;
+    font-size: 12px;
+    text-align: left;
+    padding: 10px;
+}
+i {
+    margin-right: 8px;
+}
+.main {
+    background-color: #d5ecff;
+}
+.person {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+
+p {
+    color: #114eaf;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+button {
+    background-color: #114eaf;
+    width: 75px;
+    height: 30px;
+    border-radius: 45px;
+    font-size: 12px;
+    color: aliceblue;
+    font-weight: 500;
+    margin-left: 2rem;
+}
+.unfollow {
+    color: #114fb1;
+    background-color: #d5ecff;
+    border: 1px solid #114fb1;
+}
